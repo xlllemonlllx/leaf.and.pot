@@ -412,13 +412,11 @@ ul.social_icon li a:hover {
 }
 
 .bann_img {
-     
-
-    width: 120%;          /* делаем изображение чуть больше ширины колонки */
-    height: auto;         /* сохраняем пропорции */
-    max-width: none;      /* разрешаем выходить за 100% */
-    transform: translateX(40px); /* сдвигаем вправо (можно менять) */
-
+    display: block;
+    width: 100%;
+    max-width: 480px;   /* размер картинки на десктопе */
+    height: auto;
+    margin: 40px 0 0 auto;  /* прижимаем вправо, немного опускаем вниз */
 }
 
 
