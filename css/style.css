@@ -413,11 +413,8 @@ ul.social_icon li a:hover {
 }
 
 .bann_img {
-    display: block;
-    width: 1200%;        /* никогда не больше колонки */
-    max-width: 11600px;   /* реальный видимый размер на десктопе */
-    height: auto;
-    margin: 25px 0 0 auto;  /* прижимаем вправо и чуть вниз */
+
+    border: 10px solid red;
 }
 
 
